@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 
-import scripts.brain_games
+import prompt
 
+def welcome_user():
+    name = ''
+    while name == '':
+        name = prompt.string('May I have your name? ')
+    print('Hello, ' + name + '!')
 
 def main():
-    print("Welcome to the Brain Games!")
-    scripts.brain_games.welcome_user()
-   
-#    print(sys.path)
+    welcome_user()
 
 if __name__ == '__main__':
     main()
-#    brain_games.welcome_user()
-
 
