@@ -1,0 +1,13 @@
+name: linter
+
+on: push
+
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+    stes:
+      - name: run linter
+        run:
+          pip install poetry
+          make lint
+ 
