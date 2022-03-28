@@ -3,4 +3,4 @@
 ### Maintainability badge
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 ### linter workflow badge
-![linter](https://github.com/akishev-m/python-project-lvl1/actions/workflows/linter/badge.svg)
+![linter](https://github.com/akishev-m/python-project-lvl1/actions/workflows/github-lint.yml/badge.svg)
