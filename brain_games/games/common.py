@@ -3,6 +3,7 @@
 import prompt
 
 
+# Greeting and getting Username
 def welcome_user():
     print("Welcome to the Brain Games!")
     user_name = ''
@@ -12,6 +13,7 @@ def welcome_user():
         return user_name
 
 
+# Compare user answer with expected and show relevant message
 def is_correct(answer, exp, user_name):
     if answer == exp:
         print('Correct!')
@@ -22,6 +24,7 @@ Correct answer is \"' + str(exp) + '\".')
     return 1 if answer == exp else 4
 
 
+# Get integer user answer and check if it is integer
 def ansr_int():
     ansr = ''
     while (ansr == '') and True:
@@ -35,6 +38,7 @@ def ansr_int():
     return ansr
 
 
+# Get string user anser
 def ansr_str():
     ansr = ''
     while (ansr == '') and True:
@@ -48,6 +52,9 @@ def ansr_str():
     return ansr
 
 
+# Input data: username, function of getting answer (for int or str)
+# and function of type os game and relevant expexted answer
+# optional - quesstions number (3 by default)
 def game(user_name, f_ansr, f_exp, questions=3):
     quest_num = 0
     while quest_num < questions:

@@ -10,6 +10,7 @@
 https://asciinema.org/a/qycPsuF75WdX0Fl2ZWSTgrO8g
 ### asciinema URL step 7 (Greatest common division)
 https://asciinema.org/a/44Y3sWWKCNCWClipd1DIr3QBI
-### asciinemf URL step 8 (progression)
+### asciinema URL step 8 (progression)
 https://asciinema.org/a/ctqc0lAxrBphBmbYZV0tAbI8u
-
+### asciinema URL step 9 (Prime)
+https://asciinema.org/a/vwgNn13POYhi8U9GMrtNn3WrV
