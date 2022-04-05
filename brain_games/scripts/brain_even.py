@@ -1,21 +1,13 @@
 #!/usr/bin/env python
 
-import brain_games.games.even
-import prompt
+from brain_games.games.even import is_even
+from brain_games.games.common import welcome_user, ansr_str, game
 
 
 def main():
-    user_name = brain_games.games.even.welcome_user()
+    user_name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    quest_num = 0
-    while quest_num < 3:
-        exp = brain_games.games.even.is_even()  # expected answer
-        ansr = ''
-        while ansr == '':
-            ansr = prompt.string('Your answer: ')
-            quest_num += brain_games.games.even.is_correct(ansr, exp, user_name)
-            if quest_num == 3:
-                print('Congratulations, ' + user_name + '!')
+    game(user_name, ansr_str, is_even)
 
 
 if __name__ == '__main__':

@@ -6,6 +6,7 @@
 ![linter](https://github.com/akishev-m/python-project-lvl1/actions/workflows/github-lint.yml/badge.svg)
 ### asciinema URL step 5
  https://asciinema.org/a/87z0gsCclDyYfVndBmjmkUQHO
-### asciinemf URL step 6
+### asciinema URL step 6
 https://asciinema.org/a/qycPsuF75WdX0Fl2ZWSTgrO8g
-
+### asciinema URL step 7
+https://asciinema.org/a/44Y3sWWKCNCWClipd1DIr3QBI
