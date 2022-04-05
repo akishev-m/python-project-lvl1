@@ -55,4 +55,4 @@ def game(user_name, f_ansr, f_exp, questions=3):
         a = f_ansr()
         quest_num += is_correct(a, e, user_name)
         if quest_num == 3:
-            print('Congratulations, ' + user_name)
+            print('Congratulations, ' + user_name + '!')
