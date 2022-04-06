@@ -7,12 +7,12 @@ import prompt
 def is_correct(answer, exp, user_name):
     if str(answer) == str(exp):
         print('Correct!')
+        return True
     else:
         print('\"' + str(answer) + '\" is wrong ;(. \
 Correct answer is \"' + str(exp) + '\".')
         print('Let\'s try again, ' + user_name + '!')
         return False
-    return True
 
 
 # Input data: game
