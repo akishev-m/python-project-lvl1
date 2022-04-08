@@ -3,10 +3,10 @@
 import random
 
 
-def is_even(name=''):
-    if name == 'TASK':
-        return 'Answer "yes" if the number is even, otherwise answer "no".'
+def is_even():
+    question = random.randint(0, 100)
+    if question % 2 == 0:
+        answer = 'yes'
     else:
-        num = round(random.random() * 10)
-        print(str(num))
-    return 'yes' if num % 2 == 0 else 'no'
+        answer = 'no'
+    return str(question), answer

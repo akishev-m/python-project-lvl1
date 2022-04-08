@@ -5,7 +5,7 @@ from brain_games.games.gcd import gcd
 
 
 def main():
-    game(gcd)
+    game('Find the greatest common division of given numbers.', gcd)
 
 
 if __name__ == '__main__':

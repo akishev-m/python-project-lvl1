@@ -5,7 +5,7 @@ from brain_games.games.progression import progression
 
 
 def main():
-    game(progression)
+    game('What number is missing in the progression?', progression)
 
 
 if __name__ == '__main__':

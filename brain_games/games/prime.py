@@ -3,15 +3,20 @@
 import random
 
 
-def prime(name=''):
-    if name == 'TASK':
-        return 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    else:
-        num = random.randint(0, 30)
-        print(str(num))
-        index = 2
-        while index <= (num / 2):
-            if (num % index) == 0 and num != 0:
-                return 'no'
-            index += 1
-        return 'yes'
+def is_prime(num):
+    index = 2
+    if num == 0:
+        return True
+    while index <= (num / 2):
+        if (num % index) == 0:
+            return False
+        index += 1
+    return True
+
+
+def prime():
+    question = random.randint(0, 30)
+    answer = 'yes'
+    if not is_prime(question):
+        answer = 'no'
+    return str(question), answer
