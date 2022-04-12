@@ -4,7 +4,7 @@ import random
 
 
 def gcd_calculation(a, b):
-    answer = ''
+    answer = 1
     while a != 0 and b != 0:
         if a > b:
             a = a % b
