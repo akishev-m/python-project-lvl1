@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "brain_games"
+name = "hexlet-code"
 version = "0.1.0"
 description = "Contain games engine, game modules and scripts to launch the game"
 authors = ["akishev-ma <mikhail.akishev@gmail.com>"]
