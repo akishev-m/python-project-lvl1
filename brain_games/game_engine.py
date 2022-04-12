@@ -2,6 +2,8 @@
 
 import prompt
 
+NUMBER_OF_QUESTIONS = 3
+
 
 # Compare user answer with expected and show relevant message
 def is_correct(answer, expected_answer, user_name):
@@ -21,7 +23,7 @@ def game(task, game_function):
     user_name = prompt.string('May I have your name? ')
     print('Hello, ' + user_name + '!\n' + task)
     question_number = 0
-    while question_number < 3:
+    while question_number < NUMBER_OF_QUESTIONS:
         (question, expected_answer) = game_function()
         print('Question: ' + question)
         answer = prompt.string('Your answer: ')
@@ -29,5 +31,5 @@ def game(task, game_function):
             question_number += 1
         else:
             break
-    if question_number == 3:
+    if question_number == NUMBER_OF_QUESTIONS:
         print('Congratulations, ' + user_name + '!')
