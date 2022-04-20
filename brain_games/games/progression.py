@@ -1,9 +1,7 @@
-#!/usr/bin/env python
-
 import random
 
 
-def progression():
+def progression_game_round():
     start_num = random.randint(0, 100)
     step = random.randint(1, 9)
     length = random.randint(5, 15)
@@ -18,4 +16,4 @@ def progression():
             question = question + str(start_num) + ' '
         start_num += step
         index += 1
-    return question, answer
+    return question, str(answer)

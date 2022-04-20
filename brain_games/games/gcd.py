@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import random
 
 
@@ -14,9 +12,9 @@ def gcd_calculation(a, b):
     return answer
 
 
-def gcd():
+def gcd_game_round():
     a = random.randint(0, 100)
     b = random.randint(0, 100)
     question = str(a) + ' ' + str(b)
     answer = gcd_calculation(a, b)
-    return question, answer
+    return question, str(answer)

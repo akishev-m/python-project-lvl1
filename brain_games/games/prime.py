@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import random
 
 
@@ -14,9 +12,10 @@ def is_prime(num):
     return True
 
 
-def prime():
+def prime_game_round():
     question = random.randint(0, 30)
-    answer = 'yes'
-    if not is_prime(question):
+    if is_prime(question):
+        answer = 'yes'
+    else:
         answer = 'no'
     return str(question), answer

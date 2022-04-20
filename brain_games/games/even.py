@@ -1,9 +1,7 @@
-#!/usr/bin/env python
-
 import random
 
 
-def is_even():
+def even_game_round():
     question = random.randint(0, 100)
     if question % 2 == 0:
         answer = 'yes'
