@@ -13,8 +13,8 @@ def gcd_calculation(a, b):
 
 
 def gcd_game_round():
-    a = random.randint(0, 100)
-    b = random.randint(0, 100)
+    a = random.randint(1, 100)
+    b = random.randint(1, 100)
     question = str(a) + ' ' + str(b)
     answer = gcd_calculation(a, b)
     return question, str(answer)
