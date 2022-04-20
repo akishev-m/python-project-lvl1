@@ -25,7 +25,7 @@ brain-calc: game suggest to calculate sum, multiplication or deduction of two nu
 brain-even: game output the number and ask if the number is even\
 brain-prime: game output the number and ask if the number is prime\
 brain-gcd: game output two numbers and propose to find the greatest common divisor\
-brain-progression: game output number sequence of arithmetic progression with one missing number and suggest to find missed number\
+brain-progression: game output number sequence of arithmetic progression with one missing number and suggest to find missed number
 
 game demonstration: https://asciinema.org/a/SYHaSv6UQkUVPdxkFFddnUEZy
 

@@ -13,7 +13,7 @@ def is_prime(num):
 
 
 def prime_game_round():
-    question = random.randint(0, 30)
+    question = random.randint(2, 30)
     if is_prime(question):
         answer = 'yes'
     else:
