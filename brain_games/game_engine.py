@@ -4,7 +4,7 @@ ROUNDS_COUNT = 3
 
 
 # Input data: task, game
-def game(task, generate_round):
+def run_game(task, generate_round):
     print("Welcome to the Brain Games!")
     user_name = prompt.string('May I have your name? ')
     print('Hello, ' + user_name + '!\n' + task)

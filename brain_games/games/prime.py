@@ -14,7 +14,7 @@ def is_prime(num):
     return True
 
 
-def prime_game_round():
+def generate_prime_round():
     question = random.randint(2, 30)
     if is_prime(question):
         answer = 'yes'

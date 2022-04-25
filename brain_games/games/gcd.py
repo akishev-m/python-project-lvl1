@@ -14,7 +14,7 @@ def gcd_calculation(a, b):
     return answer
 
 
-def gcd_game_round():
+def generate_gcd_round():
     a = random.randint(1, 100)
     b = random.randint(1, 100)
     question = str(a) + ' ' + str(b)

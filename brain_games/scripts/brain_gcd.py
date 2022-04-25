@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.game_engine import game
-from brain_games.games.gcd import gcd_game_round, QUESTION
+from brain_games.game_engine import run_game
+from brain_games.games.gcd import generate_gcd_round, QUESTION
 
 
 def main():
-    game(QUESTION, gcd_game_round)
+    run_game(QUESTION, generate_gcd_round)
 
 
 if __name__ == '__main__':

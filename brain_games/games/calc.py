@@ -6,7 +6,7 @@ SUBSTRACTION = '-'
 MULTIPLICATION = '*'
 
 
-def calc_game_round():
+def generate_calc_round():
     a = random.randint(0, 100)
     b = random.randint(0, 100)
     operation = random.choice((ADDITION, SUBSTRACTION, MULTIPLICATION))
