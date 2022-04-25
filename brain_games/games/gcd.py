@@ -1,5 +1,7 @@
 import random
 
+QUESTION = 'Find the greatest common division of given numbers.'
+
 
 def gcd_calculation(a, b):
     answer = 1

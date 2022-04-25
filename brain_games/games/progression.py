@@ -1,5 +1,7 @@
 import random
 
+QUESTION = 'What number is missing in the progression?'
+
 
 def progression_game_round():
     start_num = random.randint(0, 100)

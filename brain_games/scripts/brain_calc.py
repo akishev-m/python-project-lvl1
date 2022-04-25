@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 
 from brain_games.game_engine import game
-from brain_games.games.calc import calc_game_round
-
-QUESTION = 'Answer the question'
+from brain_games.games.calc import calc_game_round, QUESTION
 
 
 def main():
