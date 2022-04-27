@@ -15,6 +15,8 @@ def generate_calc_round():
         answer = a + b
     elif operation == SUBSTRACTION:
         answer = a - b
-    else:
+    elif operation == MULTIPLICATION:
         answer = a * b
+    else:
+        raise Exception("Error")
     return question, str(answer)
